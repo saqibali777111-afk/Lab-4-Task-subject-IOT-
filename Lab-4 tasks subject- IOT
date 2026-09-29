@@ -1,0 +1,59 @@
+#Name SAQIB ALI
+#ROLL NUMBER 86
+#LAB 4
+
+
+#Q1
+
+my_list = [3, 1, 0, 9, 5, 2, 6, 4, 9, 8, 7]
+
+smallest = my_list[0]
+
+for number in my_list:
+    if number < smallest:
+        smallest = number
+
+print("Smallest number:", smallest)
+
+
+
+#Q2
+
+
+my_list = [3, 1, 0, 9, 5, 2, 6, 4, 9, 8, 7]
+
+total = 0
+
+for number in my_list:
+    total = total + number
+
+average = total / len(my_list)
+
+print("Sum:", total)
+print("Average:", average)
+
+
+#Q3
+
+students = ["Ali", "Ahmed", "Sara", "Ayesha", "Bilal"]
+
+name = input("Enter student name: ")
+
+if name in students:
+    print("Student Found")
+else:
+    print("Student Not Found")
+
+
+#Q4
+
+shopping = []
+
+for i in range(5):
+    item = input("Enter shopping item: ")
+    shopping.append(item)
+
+print("Shopping List:")
+
+for item in shopping:
+    print(item)
